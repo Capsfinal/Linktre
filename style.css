@@ -153,9 +153,10 @@ ul li a:hover{
 }
 
 footer{
-    padding: 24px 0px;
+    padding: 15px 0px;
     text-align: center;
-    font-size: 14px;
+   font-size: 1;
+
 }
 
 :root{
