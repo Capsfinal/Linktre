@@ -22,7 +22,8 @@ body * {
 }
 #container{
     
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     height: 712px;
     margin: auto;
     padding: 0 24px;
@@ -159,7 +160,7 @@ footer{
 :root{
 
     --text-color:white;
-    --bg-url:url(assets/bg-mobile.jpg);
+    --bg-url:url(assets/bg-desktop.jpg);
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color: rgba(0, 0, 0, 0.5);
     --surface-color-hover:  rgba(255, 255, 255, 0.5);
@@ -169,7 +170,7 @@ footer{
 
 .light{
     --text-color:black;
-    --bg-url:url(assets/bg-mobile-light.jpg);
+    --bg-url:url(assets/bg-desktop-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(255, 255, 255, 0.5);
     --surface-color-hover: rgba(0, 0, 0, 0.5);
